@@ -1,0 +1,14 @@
+{
+  "name": "open_document",
+  "description": "Use this tool in the following two scenarios ONLY:\n- if user requests to open a specific .pen file, pass the absolute file path to open it.\n- if there is no active editor opened currently, omit path, and a new document will open.",
+  "inputSchema": {
+    "properties": {
+      "path": {
+        "description": "Absolute path to an existing .pen file.",
+        "type": "string"
+      }
+    },
+    "required": [],
+    "type": "object"
+  }
+}

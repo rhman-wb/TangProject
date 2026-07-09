@@ -1,7 +1,7 @@
 /**
- * 唐长安城复原图层（GeoJSON）
+ * 唐长安城复原图层（GeoJSON）— 打开开关时按需加载
  */
-import { DATA_PATHS } from './config.js';
+import { loadChanganCity } from './data-loader.js';
 
 const TYPE_STYLE = {
   wall: { color: '#9d2933', weight: 2, fillOpacity: 0.05, fillColor: '#9d2933' },
@@ -49,9 +49,7 @@ export class MapOverlay {
     if (this._loaded) return;
     const L = window.L;
     try {
-      const res = await fetch(DATA_PATHS.changanCity);
-      if (!res.ok) throw new Error('geojson missing');
-      const geo = await res.json();
+      const geo = await loadChanganCity();
       this.layer = L.geoJSON(geo, {
         style(feature) {
           const t = feature?.properties?.type || 'ward';

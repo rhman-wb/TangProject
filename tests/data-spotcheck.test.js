@@ -53,4 +53,17 @@ describe('dataset scale and spot checks', () => {
     );
     assert.equal(pending.length, 0, pending.map((p) => p.id).join(','));
   });
+
+  it('shipped place images use WebP', () => {
+    const bad = [];
+    for (const p of places) {
+      for (const img of p.images || []) {
+        if (!/\.webp$/i.test(img.src || '')) {
+          bad.push(`${p.id}:${img.src}`);
+        }
+      }
+    }
+    assert.equal(bad.length, 0, bad.join(', '));
+  });
 });
+

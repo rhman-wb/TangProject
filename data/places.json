@@ -15,7 +15,7 @@
       "description": "唐帝国的权力中枢，含元殿、麟德殿所在。李白曾待诏于此。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "大明宫示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，大明宫，大明宫，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -38,7 +38,7 @@
       "description": "玄宗藩邸扩建之宫，沉香亭牡丹花下李白奉诏作《清平调》。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "兴庆宫示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，兴庆宫，兴庆宫，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -61,7 +61,7 @@
       "description": "隋大兴宫，唐初主要宫殿区，称西内。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "太极宫示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，太极宫，太极宫（西内），古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -84,7 +84,7 @@
       "description": "长安城中轴线，宽阔平直，士庶往来通衢。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "朱雀大街示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，朱雀大街，朱雀门街，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -107,7 +107,7 @@
       "description": "紧邻东市，多妓馆，科举新进常游于此，称「风流数泽」。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "平康坊示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，平康坊，平康坊，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -130,7 +130,7 @@
       "description": "长安东南胜景，新科进士曲江宴之所，杜甫《丽人行》所写游春地。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "曲江池示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，曲江池，曲江池，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -153,7 +153,7 @@
       "description": "城东南高地，可俯瞰全城，李商隐「向晚意不适，驱车登古原」即此。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "乐游原示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，乐游原，乐游原，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -176,7 +176,7 @@
       "description": "玄奘译经之所，新科进士「雁塔题名」之殊荣地。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "大雁塔示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，大雁塔，大慈恩寺浮图，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -199,7 +199,7 @@
       "description": "唐中宗敕建荐福寺之塔，密檐式砖塔代表。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "小雁塔示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，小雁塔，荐福寺塔，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -222,7 +222,7 @@
       "description": "密宗道场，日僧空海在此受法，白居易等亦有题咏。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "青龙寺示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，青龙寺，青龙寺，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -245,7 +245,7 @@
       "description": "东出长安送别之地，折柳赠别的文化象征。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "灞桥示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，灞桥，灞桥，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -268,7 +268,7 @@
       "description": "西行饯别之地，王维《送元二使安西》经典场景。",
       "images": [
         {
-          "src": "assets/images/places/weicheng.jpg",
+          "src": "assets/images/places/weicheng.webp",
           "caption": "渭城示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，渭城，渭城（咸阳故城），古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -291,7 +291,7 @@
       "description": "长安正南屏障，隐逸与修道的象征，王维、孟浩然多有题咏。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "终南山示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，终南山，终南山，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -314,7 +314,7 @@
       "description": "骊山温泉行宫，玄宗与杨贵妃长居之地，《长恨歌》重要场景。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "华清宫示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，华清宫，华清宫，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -337,7 +337,7 @@
       "description": "净土宗祖庭之一，王维《过香积寺》所访。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "香积寺示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，香积寺，香积寺，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -360,7 +360,7 @@
       "description": "王维晚年别业所在，与裴迪唱和《辋川集》。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "辋川示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，辋川，辋川，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -383,7 +383,7 @@
       "description": "城南形胜，杜氏祖居，杜牧号樊川居士。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "樊川示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，樊川，樊川（杜曲），古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -406,7 +406,7 @@
       "description": "与大雁塔一体，唐代译场与游览胜地。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "慈恩寺示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，慈恩寺，大慈恩寺，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -429,7 +429,7 @@
       "description": "长安两大市之一，商贾云集，与西市并称。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "东市示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，东市，东市，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -452,7 +452,7 @@
       "description": "丝绸之路东端集散地，胡商汇聚，异域风情浓。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "西市示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，西市，西市，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -475,7 +475,7 @@
       "description": "长安东南要隘，韩愈贬潮州途经，「雪拥蓝关马不前」。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "蓝关示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，蓝关，蓝田关，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -498,7 +498,7 @@
       "description": "杜甫曾居此，「少陵野老」之号由来。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "少陵原示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，少陵原，少陵原，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -521,7 +521,7 @@
       "description": "曲江北，新进士探花宴之地。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "杏园示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，杏园，杏园，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -544,7 +544,7 @@
       "description": "横贯关中的大河，唐诗中常见的地理意象。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "渭水示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，渭水，渭水，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -567,7 +567,7 @@
       "description": "华清宫所倚之山，烽火戏诸侯故地，杜牧「一骑红尘妃子笑」背景。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "骊山示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，骊山，骊山，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -590,7 +590,7 @@
       "description": "丝绸之路南路关隘，「西出阳关无故人」。",
       "images": [
         {
-          "src": "assets/images/places/yangguan.jpg",
+          "src": "assets/images/places/yangguan.webp",
           "caption": "阳关示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，阳关，阳关，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -613,7 +613,7 @@
       "description": "安史之乱中杨贵妃赐死处，《长恨歌》关键节点。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "马嵬示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，马嵬，马嵬驿，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -636,7 +636,7 @@
       "description": "唐经营西域的军政中心，送别诗常见目的地。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "安西示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，安西，安西都护府，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -659,7 +659,7 @@
       "description": "李白「蜀道难」所写，杜甫晚年亦流寓于此。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "巴蜀示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，巴蜀，蜀中，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -682,7 +682,7 @@
       "description": "长江中游重镇，李白流放夜郎途经与遇赦之地。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "江陵示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，江陵，江陵，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -705,7 +705,7 @@
       "description": "白居易《琵琶行》中湓浦之行的地理背景相关江南都会（扩展关联）。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "徐州示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，徐州，徐州，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
@@ -728,7 +728,7 @@
       "description": "唐东都，与长安并称两京，诗人往来频繁。",
       "images": [
         {
-          "src": "assets/images/places/changan-default.jpg",
+          "src": "assets/images/places/changan-default.webp",
           "caption": "洛阳示意",
           "status": "generated",
           "prompt": "唐风水墨工笔，洛阳，东都洛阳，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
