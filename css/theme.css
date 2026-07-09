@@ -1,0 +1,91 @@
+/* 唐风色板与主题变量（浅色 / 暗色） */
+:root {
+  --color-bg: #f7f3e9;
+  --color-ink: #2b2b2b;
+  --color-ink-muted: #5a5650;
+  --color-primary: #9d2933;
+  --color-primary-hover: #7a1f27;
+  --color-early: #4a7c59;
+  --color-high: #2c6e8f;
+  --color-middle: #c9a227;
+  --color-late: #7b4b94;
+  --color-panel: #fffdf8;
+  --color-panel-border: #e8e0d0;
+  --color-shadow: rgba(43, 43, 43, 0.12);
+  --color-overlay: rgba(43, 43, 43, 0.45);
+  --color-map-chrome: #fffdf8;
+  --font-body: system-ui, -apple-system, "Segoe UI", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  --font-poem: "Songti SC", "STSong", "SimSun", "Noto Serif CJK SC", serif;
+  --radius: 8px;
+  --header-h: 56px;
+  --timeline-h: 64px;
+  --sidebar-w: 280px;
+  --detail-w: 360px;
+  --z-header: 1000;
+  --z-panel: 1100;
+  --z-modal: 1200;
+  --z-toast: 1300;
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --color-bg: #1a1a1f;
+  --color-ink: #e8e4dc;
+  --color-ink-muted: #a8a49c;
+  --color-primary: #c94a54;
+  --color-primary-hover: #e0606a;
+  --color-early: #6a9c79;
+  --color-high: #4c8eaf;
+  --color-middle: #d9b247;
+  --color-late: #9b6bb4;
+  --color-panel: #24242c;
+  --color-panel-border: #3a3a44;
+  --color-shadow: rgba(0, 0, 0, 0.4);
+  --color-overlay: rgba(0, 0, 0, 0.6);
+  --color-map-chrome: #24242c;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #1a1a1f;
+    --color-ink: #e8e4dc;
+    --color-ink-muted: #a8a49c;
+    --color-primary: #c94a54;
+    --color-primary-hover: #e0606a;
+    --color-early: #6a9c79;
+    --color-high: #4c8eaf;
+    --color-middle: #d9b247;
+    --color-late: #9b6bb4;
+    --color-panel: #24242c;
+    --color-panel-border: #3a3a44;
+    --color-shadow: rgba(0, 0, 0, 0.4);
+    --color-overlay: rgba(0, 0, 0, 0.6);
+    --color-map-chrome: #24242c;
+    color-scheme: dark;
+  }
+}
+
+.period-badge {
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.4;
+}
+.period-badge[data-period="early"] {
+  background: var(--color-early);
+}
+.period-badge[data-period="high"] {
+  background: var(--color-high);
+}
+.period-badge[data-period="middle"] {
+  background: var(--color-middle);
+  color: #1a1a1a;
+}
+.period-badge[data-period="late"] {
+  background: var(--color-late);
+}

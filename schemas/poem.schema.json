@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://changan-poetry.local/schemas/poem.schema.json",
+  "title": "Poem",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "poetId",
+    "period",
+    "content",
+    "highlight",
+    "places",
+    "sources"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "title": { "type": "string", "minLength": 1 },
+    "poetId": { "type": "string" },
+    "period": { "enum": ["early", "high", "middle", "late"] },
+    "year": { "type": ["integer", "null"] },
+    "yearPrecision": { "enum": ["exact", "approximate", "inferred"] },
+    "content": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "highlight": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "places": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["placeId", "relation"],
+        "properties": {
+          "placeId": { "type": "string" },
+          "relation": { "enum": ["composed", "described", "related"] }
+        }
+      }
+    },
+    "story": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    }
+  },
+  "additionalProperties": true
+}

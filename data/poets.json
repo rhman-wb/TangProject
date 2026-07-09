@@ -1,0 +1,379 @@
+{
+  "poets": [
+    {
+      "id": "wangbo",
+      "name": "王勃",
+      "courtesyName": "子安",
+      "period": "early",
+      "birthYear": 650,
+      "deathYear": 676,
+      "activeYears": [
+        668,
+        676
+      ],
+      "bio": "字子安，「初唐四杰」之首。少有才名，诗文雄放，代表作《滕王阁序》名扬天下。",
+      "changanStory": "弱冠入长安应举，出入长安文坛，与杨炯、卢照邻、骆宾王齐名。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "yangjiong",
+      "name": "杨炯",
+      "courtesyName": "盈川",
+      "period": "early",
+      "birthYear": 650,
+      "deathYear": 693,
+      "activeYears": [
+        670,
+        693
+      ],
+      "bio": "「初唐四杰」之一，以边塞与咏史见长，文风刚健。",
+      "changanStory": "幼举神童，授校书郎，长期活动于长安宫廷与文馆。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "luzhaolin",
+      "name": "卢照邻",
+      "courtesyName": "升之",
+      "period": "early",
+      "birthYear": 634,
+      "deathYear": 686,
+      "activeYears": [
+        655,
+        680
+      ],
+      "bio": "「初唐四杰」之一，诗多忧生之嗟，长于七言歌行。",
+      "changanStory": "曾为邓王府典签，往来长安，后因病退居。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "luobinwang",
+      "name": "骆宾王",
+      "courtesyName": "观光",
+      "period": "early",
+      "birthYear": 640,
+      "deathYear": 684,
+      "activeYears": [
+        660,
+        684
+      ],
+      "bio": "「初唐四杰」之一，七言歌行与骈文俱佳，有《讨武氏檄》传世。",
+      "changanStory": "曾任长安主簿等职，于长安写下多首咏物与抒怀之作。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "dushenyan",
+      "name": "杜审言",
+      "courtesyName": "必简",
+      "period": "early",
+      "birthYear": 645,
+      "deathYear": 708,
+      "activeYears": [
+        670,
+        705
+      ],
+      "bio": "杜甫祖父，近体诗奠基人之一，诗风整饬精严。",
+      "changanStory": "进士及第后历官洛阳、长安，为武后、中宗朝宫廷诗人。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "chenziang",
+      "name": "陈子昂",
+      "courtesyName": "伯玉",
+      "period": "early",
+      "birthYear": 661,
+      "deathYear": 702,
+      "activeYears": [
+        684,
+        698
+      ],
+      "bio": "倡导汉魏风骨，开盛唐先声，代表作《登幽州台歌》。",
+      "changanStory": "举进士后历任麟台正字等，在长安力矫齐梁余风。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "wangzhihuan",
+      "name": "王之涣",
+      "courtesyName": "季凌",
+      "period": "high",
+      "birthYear": 688,
+      "deathYear": 742,
+      "activeYears": [
+        720,
+        742
+      ],
+      "bio": "边塞诗人，诗作虽少而皆精品，《凉州词》《登鹳雀楼》千古传唱。",
+      "changanStory": "早年混迹长安乐工歌筵，旗亭画壁传说即发生于此。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "wangwei",
+      "name": "王维",
+      "courtesyName": "摩诘",
+      "period": "high",
+      "birthYear": 701,
+      "deathYear": 761,
+      "activeYears": [
+        721,
+        761
+      ],
+      "bio": "字摩诘，诗画双绝，有「诗佛」之称。山水田园诗空灵澄澈。",
+      "changanStory": "长期在长安为官，晚年半官半隐于蓝田辋川别业。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "libai",
+      "name": "李白",
+      "courtesyName": "太白",
+      "period": "high",
+      "birthYear": 701,
+      "deathYear": 762,
+      "activeYears": [
+        725,
+        762
+      ],
+      "bio": "字太白，号青莲居士，「诗仙」。浪漫主义巅峰，想象奇绝。",
+      "changanStory": "天宝初奉诏入长安，供奉翰林，贺知章呼为「谪仙人」，后赐金放还。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "dufu",
+      "name": "杜甫",
+      "courtesyName": "子美",
+      "period": "high",
+      "birthYear": 712,
+      "deathYear": 770,
+      "activeYears": [
+        735,
+        770
+      ],
+      "bio": "字子美，号少陵野老，「诗圣」。现实主义高峰，被誉「诗史」。",
+      "changanStory": "困守长安十年，安史之乱中陷贼、奔凤翔，写下大量长安纪实诗。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "baijuyi",
+      "name": "白居易",
+      "courtesyName": "乐天",
+      "period": "middle",
+      "birthYear": 772,
+      "deathYear": 846,
+      "activeYears": [
+        800,
+        846
+      ],
+      "bio": "字乐天，号香山居士。新乐府运动倡导者，诗风浅切感人。",
+      "changanStory": "进士及第后任翰林学士、左拾遗等，在长安创作《长恨歌》《琵琶行》等名篇。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "yuanzhen",
+      "name": "元稹",
+      "courtesyName": "微之",
+      "period": "middle",
+      "birthYear": 779,
+      "deathYear": 831,
+      "activeYears": [
+        803,
+        831
+      ],
+      "bio": "字微之，与白居易齐名，称「元白」。悼亡诗与艳诗俱有名。",
+      "changanStory": "明经及第，历任监察御史等，在长安与白居易唱和频繁。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "hanyu",
+      "name": "韩愈",
+      "courtesyName": "退之",
+      "period": "middle",
+      "birthYear": 768,
+      "deathYear": 824,
+      "activeYears": [
+        792,
+        824
+      ],
+      "bio": "字退之，古文运动领袖，「文起八代之衰」。诗风奇崛。",
+      "changanStory": "多次任职长安，上《论佛骨表》被贬潮州，有《左迁至蓝关示侄孙湘》。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "liuzongyuan",
+      "name": "柳宗元",
+      "courtesyName": "子厚",
+      "period": "middle",
+      "birthYear": 773,
+      "deathYear": 819,
+      "activeYears": [
+        793,
+        815
+      ],
+      "bio": "字子厚，「唐宋八大家」之一，山水游记与寓言文成就极高。",
+      "changanStory": "进士及第后参与永贞革新，在长安任监察御史里行等职。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "liuyuxi",
+      "name": "刘禹锡",
+      "courtesyName": "梦得",
+      "period": "middle",
+      "birthYear": 772,
+      "deathYear": 842,
+      "activeYears": [
+        793,
+        842
+      ],
+      "bio": "字梦得，有「诗豪」之称。咏史怀古诗尤为精警。",
+      "changanStory": "与柳宗元同榜，永贞革新失败后贬朗州，后重返长安有玄都观诗。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "lihe",
+      "name": "李贺",
+      "courtesyName": "长吉",
+      "period": "middle",
+      "birthYear": 790,
+      "deathYear": 816,
+      "activeYears": [
+        808,
+        816
+      ],
+      "bio": "字长吉，「诗鬼」。想象诡谲，辞采冷艳，英年早逝。",
+      "changanStory": "居长安任奉礼郎三年，因避父讳不得举进士，郁郁不得志。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "weiyingwu",
+      "name": "韦应物",
+      "courtesyName": "义博",
+      "period": "middle",
+      "birthYear": 737,
+      "deathYear": 792,
+      "activeYears": [
+        760,
+        790
+      ],
+      "bio": "山水田园诗人，诗风澄淡雅洁，有「王韦」之称。",
+      "changanStory": "早年为玄宗侍卫，后历官洛阳、苏州，青年时代常居长安。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "lulun",
+      "name": "卢纶",
+      "courtesyName": "允言",
+      "period": "middle",
+      "birthYear": 739,
+      "deathYear": 799,
+      "activeYears": [
+        760,
+        799
+      ],
+      "bio": "「大历十才子」之一，边塞诗与送别诗并长。",
+      "changanStory": "屡举进士不第，后官至检校户部郎中，活动于长安文坛。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "lishangyin",
+      "name": "李商隐",
+      "courtesyName": "义山",
+      "period": "late",
+      "birthYear": 813,
+      "deathYear": 858,
+      "activeYears": [
+        837,
+        858
+      ],
+      "bio": "字义山，号玉谿生。无题诗与咏史诗隐晦深情，开西昆先声。",
+      "changanStory": "进士及第后卷入牛李党争，在长安留下大量感怀与咏史之作。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "dumu",
+      "name": "杜牧",
+      "courtesyName": "牧之",
+      "period": "late",
+      "birthYear": 803,
+      "deathYear": 852,
+      "activeYears": [
+        828,
+        852
+      ],
+      "bio": "字牧之，号樊川居士。咏史七绝尤为人称道，称「小杜」。",
+      "changanStory": "祖居长安城南樊川，仕途起落间常回长安，写下《过华清宫》等。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "wentingyun",
+      "name": "温庭筠",
+      "courtesyName": "飞卿",
+      "period": "late",
+      "birthYear": 812,
+      "deathYear": 866,
+      "activeYears": [
+        835,
+        866
+      ],
+      "bio": "词为花间鼻祖，诗与李商隐齐名，称「温李」。",
+      "changanStory": "长期出入长安狭邪与公卿之门，对长安坊市风情极为熟悉。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "weizhuang",
+      "name": "韦庄",
+      "courtesyName": "端己",
+      "period": "late",
+      "birthYear": 836,
+      "deathYear": 910,
+      "activeYears": [
+        880,
+        910
+      ],
+      "bio": "花间词人代表，诗作感时伤乱，有《秦妇吟》长诗。",
+      "changanStory": "黄巢起义时身陷长安，以亲历写下《秦妇吟》，后入蜀。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "pirixiu",
+      "name": "皮日休",
+      "courtesyName": "袭美",
+      "period": "late",
+      "birthYear": 834,
+      "deathYear": 883,
+      "activeYears": [
+        860,
+        883
+      ],
+      "bio": "与陆龟蒙并称「皮陆」，诗文多批判现实。",
+      "changanStory": "咸通进士，曾任太常博士，活动于长安、苏州一带。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "luguimeng",
+      "name": "陆龟蒙",
+      "courtesyName": "鲁望",
+      "period": "late",
+      "birthYear": null,
+      "deathYear": 881,
+      "activeYears": [
+        860,
+        881
+      ],
+      "bio": "号天随子，隐逸诗人，与皮日休唱和。",
+      "changanStory": "曾赴长安应试不第，后归隐松江，诗中常忆长安科场与友情。",
+      "portrait": "assets/images/poets/default.svg"
+    },
+    {
+      "id": "luoyin",
+      "name": "罗隐",
+      "courtesyName": "昭谏",
+      "period": "late",
+      "birthYear": 833,
+      "deathYear": 909,
+      "activeYears": [
+        860,
+        900
+      ],
+      "bio": "十举进士不第，诗多讽喻，小品文尤为辛辣。",
+      "changanStory": "多次入长安应举，落第诗中尽写长安炎凉与科场感慨。",
+      "portrait": "assets/images/poets/default.svg"
+    }
+  ]
+}

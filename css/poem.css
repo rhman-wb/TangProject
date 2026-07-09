@@ -1,0 +1,96 @@
+/* 诗词排版：名句高亮、全文折叠 */
+.poem-card {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--color-panel-border);
+}
+.poem-card:last-child {
+  border-bottom: none;
+}
+.poem-card__title {
+  font-family: var(--font-poem);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+  color: var(--color-ink);
+}
+.poem-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--color-ink-muted);
+}
+.poem-card__author {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.poem-card__author:hover,
+.poem-card__author:focus-visible {
+  color: var(--color-primary-hover);
+}
+.poem-card__year {
+  font-size: 0.8rem;
+}
+.poem-card__body {
+  font-family: var(--font-poem);
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--color-ink);
+  margin: 0;
+}
+.poem-card__body .line {
+  display: block;
+}
+.poem-card__body .line.is-highlight {
+  color: var(--color-primary);
+  font-weight: 600;
+  background: color-mix(in srgb, var(--color-primary) 12%, transparent);
+  border-radius: 2px;
+  padding: 0 0.15em;
+}
+.poem-card__body.is-collapsed .line:nth-child(n + 9) {
+  display: none;
+}
+.poem-card__expand {
+  margin-top: 0.5rem;
+  background: none;
+  border: 1px dashed var(--color-panel-border);
+  color: var(--color-ink-muted);
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius);
+}
+.poem-card__expand:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+.poem-card__story {
+  margin-top: 0.85rem;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--color-ink-muted);
+}
+.poem-card__sources {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+  font-style: italic;
+}
+
+/* 竖排可选 */
+.poem-card__body.is-vertical {
+  writing-mode: vertical-rl;
+  max-height: 320px;
+  overflow: auto;
+  letter-spacing: 0.1em;
+}

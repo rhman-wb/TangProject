@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://changan-poetry.local/schemas/place.schema.json",
+  "title": "Place",
+  "type": "object",
+  "required": ["id", "name", "coordinates", "locationPrecision", "scope"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "ancientName": { "type": "string" },
+    "modernName": { "type": "string" },
+    "coordinates": {
+      "type": "array",
+      "items": { "type": "number" },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "locationPrecision": { "enum": ["exact", "approximate"] },
+    "scope": { "enum": ["core", "extended"] },
+    "category": {
+      "enum": [
+        "palace",
+        "temple",
+        "scenic",
+        "street",
+        "bridge",
+        "mountain",
+        "suburb"
+      ]
+    },
+    "description": { "type": "string" },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "src": { "type": "string" },
+          "caption": { "type": "string" },
+          "status": { "enum": ["placeholder", "generated"] },
+          "prompt": { "type": "string" },
+          "credit": { "type": "string" }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

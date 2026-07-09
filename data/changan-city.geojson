@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "外郭城", "type": "wall" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [108.90, 34.22],
+            [108.99, 34.22],
+            [108.99, 34.30],
+            [108.90, 34.30],
+            [108.90, 34.22]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "宫城", "type": "palace" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [108.93, 34.275],
+            [108.955, 34.275],
+            [108.955, 34.295],
+            [108.93, 34.295],
+            [108.93, 34.275]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "皇城", "type": "palace" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [108.93, 34.255],
+            [108.955, 34.255],
+            [108.955, 34.275],
+            [108.93, 34.275],
+            [108.93, 34.255]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "朱雀大街", "type": "street" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [108.942, 34.22],
+          [108.942, 34.275]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "平康坊", "type": "ward" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [108.955, 34.255],
+            [108.965, 34.255],
+            [108.965, 34.262],
+            [108.955, 34.262],
+            [108.955, 34.255]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "晋昌坊", "type": "ward" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [108.955, 34.225],
+            [108.97, 34.225],
+            [108.97, 34.235],
+            [108.955, 34.235],
+            [108.955, 34.225]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "大明宫", "type": "palace" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [108.95, 34.285],
+            [108.975, 34.285],
+            [108.975, 34.305],
+            [108.95, 34.305],
+            [108.95, 34.285]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "兴庆宫", "type": "palace" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [108.98, 34.25],
+            [108.995, 34.25],
+            [108.995, 34.265],
+            [108.98, 34.265],
+            [108.98, 34.25]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "曲江", "type": "ward" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [108.98, 34.21],
+            [108.995, 34.21],
+            [108.995, 34.225],
+            [108.98, 34.225],
+            [108.98, 34.21]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "横街", "type": "street" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [108.90, 34.255],
+          [108.99, 34.255]
+        ]
+      }
+    }
+  ]
+}

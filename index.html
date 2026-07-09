@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="长安诗境 — 在交互式地图上探索唐代诗人与诗词地点"
+    />
+    <meta property="og:title" content="长安诗境 · 唐诗地图" />
+    <meta
+      property="og:description"
+      content="以地图呈现唐诗创作与描绘地点，图文并茂读诗。"
+    />
+    <meta property="og:type" content="website" />
+    <title>长安诗境 · 唐诗地图</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/poem.css" />
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="vendor/markercluster/MarkerCluster.css" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" href="vendor/markercluster/MarkerCluster.Default.css" media="print" onload="this.media='all'" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="app-header" role="banner">
+        <a class="logo" href="./" aria-label="长安诗境首页">
+          <span class="logo__title">长安诗境</span>
+          <span class="logo__sub">唐诗地图</span>
+        </a>
+        <div
+          id="period-filter"
+          class="period-filter"
+          role="group"
+          aria-label="时期筛选"
+        ></div>
+        <div class="header-actions">
+          <div class="search-wrap">
+            <label class="sr-only" for="search-input">搜索诗词、诗人、地点</label>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="搜索诗名/诗人/诗句/地点"
+              autocomplete="off"
+            />
+            <ul
+              id="search-results"
+              class="search-results"
+              hidden
+              role="listbox"
+              aria-label="搜索结果"
+            ></ul>
+          </div>
+          <button
+            type="button"
+            id="btn-extended"
+            class="toolbar-btn"
+            aria-pressed="false"
+            title="显示核心范围之外的远地标记"
+          >
+            扩展范围
+          </button>
+          <button
+            type="button"
+            id="btn-overlay"
+            class="toolbar-btn"
+            aria-pressed="false"
+            title="唐长安城复原图层"
+          >
+            城坊图层
+          </button>
+          <button type="button" id="btn-theme" class="toolbar-btn" title="主题切换">
+            主题:系统
+          </button>
+          <button type="button" id="btn-intro" class="toolbar-btn" title="使用引导">
+            引导
+          </button>
+        </div>
+      </header>
+
+      <div class="app-body">
+        <aside id="sidebar" class="sidebar" aria-label="筛选与列表">
+          <div class="sidebar__section">
+            <h2>诗人筛选</h2>
+            <div id="poet-filter"></div>
+          </div>
+          <div class="sidebar__section" style="flex: 1; display: flex; flex-direction: column; min-height: 0; border-bottom: none">
+            <h2>诗词列表</h2>
+            <ul id="poem-list" class="poem-list"></ul>
+          </div>
+        </aside>
+
+        <main class="map-area" aria-label="地图">
+          <div id="map" role="application" aria-label="唐诗地点地图"></div>
+          <div class="map-controls">
+            <button type="button" id="btn-reset-changan" class="toolbar-btn">
+              回到长安
+            </button>
+          </div>
+          <div class="mobile-toggles">
+            <button type="button" id="btn-list-mobile" class="toolbar-btn">
+              列表
+            </button>
+          </div>
+          <div id="overlay-note" class="overlay-note" hidden>
+            示意复原，非精确考古边界
+          </div>
+
+          <section
+            id="detail-panel"
+            class="detail-panel"
+            aria-hidden="true"
+            aria-label="详情面板"
+          >
+            <div class="detail-panel__header">
+              <div>
+                <h2 id="detail-title">详情</h2>
+                <p id="detail-subtitle" class="detail-panel__subtitle"></p>
+              </div>
+              <button
+                type="button"
+                id="detail-close"
+                class="detail-panel__close"
+                aria-label="关闭详情"
+              >
+                ×
+              </button>
+            </div>
+            <div id="detail-body" class="detail-panel__body"></div>
+          </section>
+
+          <section
+            id="poet-view"
+            class="poet-view"
+            aria-hidden="true"
+            aria-label="诗人介绍"
+          ></section>
+        </main>
+      </div>
+
+      <footer class="timeline" aria-label="时间轴">
+        <span class="timeline__label" id="timeline-year-label">全时段</span>
+        <button type="button" id="timeline-play" class="toolbar-btn timeline__play" aria-pressed="false">
+          播放
+        </button>
+        <button type="button" id="timeline-reset" class="toolbar-btn">
+          重置
+        </button>
+        <div class="timeline__track-wrap">
+          <div id="timeline-marks" class="timeline__marks" aria-hidden="true"></div>
+          <label class="sr-only" for="timeline-range">唐代年份</label>
+          <input
+            id="timeline-range"
+            type="range"
+            min="618"
+            max="907"
+            value="907"
+            step="1"
+          />
+        </div>
+      </footer>
+    </div>
+
+    <div
+      id="intro-modal"
+      class="intro-modal"
+      hidden
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="intro-title"
+    >
+      <div class="intro-modal__card">
+        <h2 id="intro-title">欢迎来到长安诗境</h2>
+        <p style="color: var(--color-ink-muted); font-size: 0.9rem; margin-top: 0">
+          在交互式地图上探索唐代诗人与诗词地点。
+        </p>
+        <ol class="intro-modal__steps">
+          <li>在地图上点击<strong>标记</strong>，阅读该地关联的诗词全文与名句。</li>
+          <li>用顶部<strong>时期筛选</strong>与左侧<strong>诗人筛选</strong>缩小范围；打开「扩展范围」可见阳关、马嵬等远地。</li>
+          <li>使用<strong>搜索</strong>与底部<strong>时间轴</strong>，按关键字或年代浏览；点击作者名可进入诗人介绍。</li>
+        </ol>
+        <div class="intro-modal__actions">
+          <button type="button" id="intro-skip" class="btn-ghost">跳过</button>
+          <button type="button" id="intro-start" class="btn-primary">开始探索</button>
+        </div>
+      </div>
+    </div>
+
+    <script defer src="vendor/leaflet/leaflet.js"></script>
+    <script defer src="vendor/markercluster/leaflet.markercluster.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

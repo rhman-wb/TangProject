@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="诗人画像占位">
+  <circle cx="80" cy="80" r="78" fill="#f7f3e9" stroke="#9d2933" stroke-width="3"/>
+  <circle cx="80" cy="62" r="28" fill="#e8e0d0"/>
+  <ellipse cx="80" cy="120" rx="42" ry="32" fill="#e8e0d0"/>
+  <text x="80" y="150" text-anchor="middle" font-size="12" fill="#5a5650" font-family="sans-serif">诗人</text>
+</svg>

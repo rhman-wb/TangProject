@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://changan-poetry.local/schemas/poet.schema.json",
+  "title": "Poet",
+  "type": "object",
+  "required": ["id", "name", "period"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "courtesyName": { "type": "string" },
+    "period": { "enum": ["early", "high", "middle", "late"] },
+    "birthYear": { "type": ["integer", "null"] },
+    "deathYear": { "type": ["integer", "null"] },
+    "activeYears": {
+      "type": "array",
+      "items": { "type": "integer" },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "portrait": { "type": "string" },
+    "bio": { "type": "string" },
+    "changanStory": { "type": "string" }
+  },
+  "additionalProperties": true
+}

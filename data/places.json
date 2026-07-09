@@ -1,0 +1,740 @@
+{
+  "places": [
+    {
+      "id": "daminggong",
+      "name": "大明宫",
+      "ancientName": "大明宫",
+      "modernName": "大明宫国家遗址公园",
+      "coordinates": [
+        34.291,
+        108.959
+      ],
+      "locationPrecision": "exact",
+      "scope": "core",
+      "category": "palace",
+      "description": "唐帝国的权力中枢，含元殿、麟德殿所在。李白曾待诏于此。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "大明宫示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，大明宫，大明宫，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "xingqinggong",
+      "name": "兴庆宫",
+      "ancientName": "兴庆宫",
+      "modernName": "兴庆宫公园",
+      "coordinates": [
+        34.255,
+        108.985
+      ],
+      "locationPrecision": "exact",
+      "scope": "core",
+      "category": "palace",
+      "description": "玄宗藩邸扩建之宫，沉香亭牡丹花下李白奉诏作《清平调》。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "兴庆宫示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，兴庆宫，兴庆宫，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "taijigong",
+      "name": "太极宫",
+      "ancientName": "太极宫（西内）",
+      "modernName": "西安市莲湖区西大街北",
+      "coordinates": [
+        34.268,
+        108.935
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "palace",
+      "description": "隋大兴宫，唐初主要宫殿区，称西内。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "太极宫示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，太极宫，太极宫（西内），古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "zhuque",
+      "name": "朱雀大街",
+      "ancientName": "朱雀门街",
+      "modernName": "西安市朱雀大街一线",
+      "coordinates": [
+        34.255,
+        108.942
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "street",
+      "description": "长安城中轴线，宽阔平直，士庶往来通衢。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "朱雀大街示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，朱雀大街，朱雀门街，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "pingkang",
+      "name": "平康坊",
+      "ancientName": "平康坊",
+      "modernName": "西安市碑林区一带",
+      "coordinates": [
+        34.258,
+        108.958
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "street",
+      "description": "紧邻东市，多妓馆，科举新进常游于此，称「风流数泽」。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "平康坊示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，平康坊，平康坊，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "qujiang",
+      "name": "曲江池",
+      "ancientName": "曲江池",
+      "modernName": "曲江池遗址公园",
+      "coordinates": [
+        34.216,
+        108.988
+      ],
+      "locationPrecision": "exact",
+      "scope": "core",
+      "category": "scenic",
+      "description": "长安东南胜景，新科进士曲江宴之所，杜甫《丽人行》所写游春地。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "曲江池示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，曲江池，曲江池，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "leyouyuan",
+      "name": "乐游原",
+      "ancientName": "乐游原",
+      "modernName": "西安市雁塔区乐游原",
+      "coordinates": [
+        34.235,
+        108.975
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "scenic",
+      "description": "城东南高地，可俯瞰全城，李商隐「向晚意不适，驱车登古原」即此。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "乐游原示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，乐游原，乐游原，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "dayanta",
+      "name": "大雁塔",
+      "ancientName": "大慈恩寺浮图",
+      "modernName": "大雁塔（大慈恩寺）",
+      "coordinates": [
+        34.2186,
+        108.964
+      ],
+      "locationPrecision": "exact",
+      "scope": "core",
+      "category": "temple",
+      "description": "玄奘译经之所，新科进士「雁塔题名」之殊荣地。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "大雁塔示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，大雁塔，大慈恩寺浮图，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "xiaoyanta",
+      "name": "小雁塔",
+      "ancientName": "荐福寺塔",
+      "modernName": "小雁塔（荐福寺）",
+      "coordinates": [
+        34.241,
+        108.937
+      ],
+      "locationPrecision": "exact",
+      "scope": "core",
+      "category": "temple",
+      "description": "唐中宗敕建荐福寺之塔，密檐式砖塔代表。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "小雁塔示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，小雁塔，荐福寺塔，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "qinglongsi",
+      "name": "青龙寺",
+      "ancientName": "青龙寺",
+      "modernName": "青龙寺遗址公园",
+      "coordinates": [
+        34.232,
+        108.999
+      ],
+      "locationPrecision": "exact",
+      "scope": "core",
+      "category": "temple",
+      "description": "密宗道场，日僧空海在此受法，白居易等亦有题咏。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "青龙寺示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，青龙寺，青龙寺，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "baqiao",
+      "name": "灞桥",
+      "ancientName": "灞桥",
+      "modernName": "灞桥（灞河）",
+      "coordinates": [
+        34.308,
+        109.07
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "bridge",
+      "description": "东出长安送别之地，折柳赠别的文化象征。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "灞桥示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，灞桥，灞桥，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "weicheng",
+      "name": "渭城",
+      "ancientName": "渭城（咸阳故城）",
+      "modernName": "咸阳市渭城区一带",
+      "coordinates": [
+        34.329,
+        108.709
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "suburb",
+      "description": "西行饯别之地，王维《送元二使安西》经典场景。",
+      "images": [
+        {
+          "src": "assets/images/places/weicheng.jpg",
+          "caption": "渭城示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，渭城，渭城（咸阳故城），古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "zhongnanshan",
+      "name": "终南山",
+      "ancientName": "终南山",
+      "modernName": "秦岭终南山",
+      "coordinates": [
+        33.95,
+        108.95
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "mountain",
+      "description": "长安正南屏障，隐逸与修道的象征，王维、孟浩然多有题咏。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "终南山示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，终南山，终南山，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "huaqinggong",
+      "name": "华清宫",
+      "ancientName": "华清宫",
+      "modernName": "华清宫（骊山）",
+      "coordinates": [
+        34.364,
+        109.214
+      ],
+      "locationPrecision": "exact",
+      "scope": "core",
+      "category": "palace",
+      "description": "骊山温泉行宫，玄宗与杨贵妃长居之地，《长恨歌》重要场景。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "华清宫示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，华清宫，华清宫，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "xiangjisi",
+      "name": "香积寺",
+      "ancientName": "香积寺",
+      "modernName": "香积寺",
+      "coordinates": [
+        34.13,
+        108.88
+      ],
+      "locationPrecision": "exact",
+      "scope": "core",
+      "category": "temple",
+      "description": "净土宗祖庭之一，王维《过香积寺》所访。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "香积寺示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，香积寺，香积寺，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "wangchuan",
+      "name": "辋川",
+      "ancientName": "辋川",
+      "modernName": "蓝田县辋川",
+      "coordinates": [
+        34.05,
+        109.28
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "suburb",
+      "description": "王维晚年别业所在，与裴迪唱和《辋川集》。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "辋川示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，辋川，辋川，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "fanchuan",
+      "name": "樊川",
+      "ancientName": "樊川（杜曲）",
+      "modernName": "长安区杜曲一带",
+      "coordinates": [
+        34.1,
+        108.95
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "suburb",
+      "description": "城南形胜，杜氏祖居，杜牧号樊川居士。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "樊川示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，樊川，樊川（杜曲），古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "ciensi",
+      "name": "慈恩寺",
+      "ancientName": "大慈恩寺",
+      "modernName": "大慈恩寺",
+      "coordinates": [
+        34.2195,
+        108.9645
+      ],
+      "locationPrecision": "exact",
+      "scope": "core",
+      "category": "temple",
+      "description": "与大雁塔一体，唐代译场与游览胜地。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "慈恩寺示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，慈恩寺，大慈恩寺，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "dongshi",
+      "name": "东市",
+      "ancientName": "东市",
+      "modernName": "西安市碑林区东大街一带",
+      "coordinates": [
+        34.26,
+        108.965
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "street",
+      "description": "长安两大市之一，商贾云集，与西市并称。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "东市示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，东市，东市，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "xishi",
+      "name": "西市",
+      "ancientName": "西市",
+      "modernName": "西安市莲湖区劳动南路一带",
+      "coordinates": [
+        34.26,
+        108.91
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "street",
+      "description": "丝绸之路东端集散地，胡商汇聚，异域风情浓。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "西市示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，西市，西市，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "langguan",
+      "name": "蓝关",
+      "ancientName": "蓝田关",
+      "modernName": "蓝田县蓝关",
+      "coordinates": [
+        34.15,
+        109.32
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "mountain",
+      "description": "长安东南要隘，韩愈贬潮州途经，「雪拥蓝关马不前」。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "蓝关示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，蓝关，蓝田关，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "shaoling",
+      "name": "少陵原",
+      "ancientName": "少陵原",
+      "modernName": "雁塔区少陵原",
+      "coordinates": [
+        34.18,
+        108.98
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "suburb",
+      "description": "杜甫曾居此，「少陵野老」之号由来。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "少陵原示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，少陵原，少陵原，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "qujiangting",
+      "name": "杏园",
+      "ancientName": "杏园",
+      "modernName": "曲江池北岸一带",
+      "coordinates": [
+        34.22,
+        108.985
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "scenic",
+      "description": "曲江北，新进士探花宴之地。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "杏园示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，杏园，杏园，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "weishui",
+      "name": "渭水",
+      "ancientName": "渭水",
+      "modernName": "渭河",
+      "coordinates": [
+        34.35,
+        108.9
+      ],
+      "locationPrecision": "approximate",
+      "scope": "core",
+      "category": "scenic",
+      "description": "横贯关中的大河，唐诗中常见的地理意象。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "渭水示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，渭水，渭水，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "lishan",
+      "name": "骊山",
+      "ancientName": "骊山",
+      "modernName": "临潼骊山",
+      "coordinates": [
+        34.36,
+        109.21
+      ],
+      "locationPrecision": "exact",
+      "scope": "core",
+      "category": "mountain",
+      "description": "华清宫所倚之山，烽火戏诸侯故地，杜牧「一骑红尘妃子笑」背景。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "骊山示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，骊山，骊山，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "yangguan",
+      "name": "阳关",
+      "ancientName": "阳关",
+      "modernName": "甘肃省敦煌市阳关遗址",
+      "coordinates": [
+        39.933,
+        94.058
+      ],
+      "locationPrecision": "approximate",
+      "scope": "extended",
+      "category": "scenic",
+      "description": "丝绸之路南路关隘，「西出阳关无故人」。",
+      "images": [
+        {
+          "src": "assets/images/places/yangguan.jpg",
+          "caption": "阳关示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，阳关，阳关，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "mawei",
+      "name": "马嵬",
+      "ancientName": "马嵬驿",
+      "modernName": "兴平市马嵬镇",
+      "coordinates": [
+        34.28,
+        108.42
+      ],
+      "locationPrecision": "approximate",
+      "scope": "extended",
+      "category": "suburb",
+      "description": "安史之乱中杨贵妃赐死处，《长恨歌》关键节点。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "马嵬示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，马嵬，马嵬驿，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "anxi",
+      "name": "安西",
+      "ancientName": "安西都护府",
+      "modernName": "新疆库车一带",
+      "coordinates": [
+        41.72,
+        82.98
+      ],
+      "locationPrecision": "approximate",
+      "scope": "extended",
+      "category": "scenic",
+      "description": "唐经营西域的军政中心，送别诗常见目的地。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "安西示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，安西，安西都护府，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "bashu",
+      "name": "巴蜀",
+      "ancientName": "蜀中",
+      "modernName": "四川成都一带",
+      "coordinates": [
+        30.67,
+        104.06
+      ],
+      "locationPrecision": "approximate",
+      "scope": "extended",
+      "category": "scenic",
+      "description": "李白「蜀道难」所写，杜甫晚年亦流寓于此。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "巴蜀示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，巴蜀，蜀中，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "jiangling",
+      "name": "江陵",
+      "ancientName": "江陵",
+      "modernName": "湖北荆州",
+      "coordinates": [
+        30.33,
+        112.24
+      ],
+      "locationPrecision": "approximate",
+      "scope": "extended",
+      "category": "scenic",
+      "description": "长江中游重镇，李白流放夜郎途经与遇赦之地。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "江陵示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，江陵，江陵，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "xuzhou",
+      "name": "徐州",
+      "ancientName": "徐州",
+      "modernName": "江苏徐州",
+      "coordinates": [
+        34.26,
+        117.18
+      ],
+      "locationPrecision": "approximate",
+      "scope": "extended",
+      "category": "scenic",
+      "description": "白居易《琵琶行》中湓浦之行的地理背景相关江南都会（扩展关联）。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "徐州示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，徐州，徐州，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    },
+    {
+      "id": "luoyang",
+      "name": "洛阳",
+      "ancientName": "东都洛阳",
+      "modernName": "河南洛阳",
+      "coordinates": [
+        34.62,
+        112.45
+      ],
+      "locationPrecision": "approximate",
+      "scope": "extended",
+      "category": "scenic",
+      "description": "唐东都，与长安并称两京，诗人往来频繁。",
+      "images": [
+        {
+          "src": "assets/images/places/changan-default.jpg",
+          "caption": "洛阳示意",
+          "status": "generated",
+          "prompt": "唐风水墨工笔，洛阳，东都洛阳，古画质感，宣纸底，胭脂与黛青点染，无文字水印",
+          "credit": "Grok Imagine · 唐风统一 art-direction"
+        }
+      ]
+    }
+  ]
+}
