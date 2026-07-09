@@ -30,4 +30,8 @@ npm test
 
 推荐 [Cloudflare Pages](https://pages.cloudflare.com/)：构建命令留空，输出目录为仓库根目录。已包含 `_headers`、`_redirects`、`404.html`、`sitemap.xml`。
 
-备选 GitHub Pages：Settings → Pages → Deploy from branch `main` / root。
+备选 GitHub Pages：Settings → Pages → Deploy from branch `main` / root，或使用仓库内 `.github/workflows/pages.yml`。
+
+## 公网地址
+
+https://rhman-wb.github.io/TangProject/
